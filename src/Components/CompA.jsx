@@ -1,5 +1,6 @@
 import React from 'react'
 import CompB from './CompB'
+// import CompB from './CompB'
 
  const CompA = () => {
     let userdetails={
@@ -12,9 +13,8 @@ import CompB from './CompB'
         {/* <h1>{userdetails.id}</h1>
         <h1>{userdetails.name}</h1>
         <h1>{userdetails.salary}</h1> */}
+<CompB one={userdetails.id} two={userdetails.name} three={userdetails.salary}/>
 
-
-        <CompB userid={userdetails.id} username={userdetails.name} usersalary={userdetails.salary}/>
     </div>
   )
 }
