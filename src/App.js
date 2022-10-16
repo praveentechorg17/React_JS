@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Counter from './Classcomponent/Counter';
-import  Navbar  from './React_Router/Navbar';
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-import  Home  from './React_Router/Home';
-import  About  from './React_Router/About';
-import Services from './React_Router/Services';
-import Contactus from './React_Router/Contactus';
+import Example1 from './Axios/Example1';
+// import Counter from './Classcomponent/Counter';
+// import  Navbar  from './React_Router/Navbar';
+// import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+// import  Home  from './React_Router/Home';
+// import  About  from './React_Router/About';
+// import Services from './React_Router/Services';
+// import Contactus from './React_Router/Contactus';
 // import Alpha from './Classcomponent/Alpha';
 // import CompC from './Classcomponent/CompC';
 // import Sample from './Classcomponent/Sample';
@@ -17,7 +18,7 @@ import Contactus from './React_Router/Contactus';
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router> */}
      {/* <Praveen/>
      <Lokesh/>
      <Gopi/> */}
@@ -38,14 +39,15 @@ function App() {
      {/* <CompC/> */}
      {/* <Counter/> */}
 
-     <Navbar/>
-     <Routes>
-      <Route path='/home' element={<Home/>}/>
-      <Route path='/about' element={<About/>}/>
-       <Route path='/services' element={<Services/>}/>
-      <Route path='/contact' element={<Contactus/>}/> 
-     </Routes>
-     </Router>
+     {/* <Navbar/> */}
+     {/* <Routes> */}
+      {/* <Route path='/home' element={<Home/>}/> */}
+      {/* <Route path='/about' element={<About/>}/> */}
+       {/* <Route path='/services' element={<Services/>}/> */}
+      {/* <Route path='/contact' element={<Contactus/>}/>  */}
+     {/* </Routes> */}
+     {/* </Router> */}
+     <Example1/>
     </div>
   );
 }
